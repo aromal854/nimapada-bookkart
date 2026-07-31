@@ -875,7 +875,7 @@ export default function App() {
       <div style={{ display:"flex", alignItems:"center", gap:8, cursor:"pointer" }} onClick={() => setView("home")}>
         <span style={{ fontSize:22 }}>📚</span>
         <span style={{ fontFamily:"'Playfair Display',Georgia,serif", fontWeight:900, fontSize:18, color:T.inkNavy }}>
-          Nimapada<span style={{ color:T.goldLeaf }}>BookKart</span>
+          Nimapada<span style={{ color:T.goldLeaf }}>BookMart</span>
         </span>
       </div>
       <div style={{ display:"flex", alignItems:"center", background:T.parchment, borderRadius:24, padding:"6px 16px", gap:8, flex:1, maxWidth:340, margin:"0 20px" }}>
@@ -1031,7 +1031,7 @@ export default function App() {
       <div style={{ background:`linear-gradient(135deg,${T.periwinkle},${T.inkNavy})`, padding:"40px 24px", textAlign:"center" }}>
         <div style={{ maxWidth:500, margin:"0 auto" }}>
           <div style={{ fontFamily:"'Playfair Display',Georgia,serif", fontSize:28, fontWeight:900, color:"#fff", marginBottom:8 }}>Stay in the story</div>
-          <div style={{ color:"rgba(255,255,255,.7)", fontSize:14, marginBottom:24 }}>New arrivals, author spotlights, and exclusive discounts from NimapadaBookKart — straight to your inbox.</div>
+          <div style={{ color:"rgba(255,255,255,.7)", fontSize:14, marginBottom:24 }}>New arrivals, author spotlights, and exclusive discounts from NimapadaBookMart — straight to your inbox.</div>
           <div style={{ display:"flex", gap:10 }}>
             <input placeholder="Enter your email" style={{ flex:1, padding:"12px 16px", borderRadius:10, border:"none", fontSize:14, outline:"none" }} />
             <button style={{ background:T.goldLeaf, color:T.walnut, border:"none", borderRadius:10, padding:"12px 20px", fontWeight:800, fontSize:14, cursor:"pointer" }}>Subscribe</button>
@@ -1041,8 +1041,8 @@ export default function App() {
 
       {/* Footer */}
       <footer style={{ background:T.walnut, color:"rgba(255,255,255,.6)", padding:"28px 24px", textAlign:"center" }}>
-        <div style={{ fontFamily:"'Playfair Display',Georgia,serif", color:"#fff", fontWeight:800, fontSize:16, marginBottom:6 }}>📚 NimapadaBookKart</div>
-        <div style={{ fontSize:12 }}>© 2026 NimapadaBookKart · nimapadabookskart.com · Nimapada, Odisha</div>
+        <div style={{ fontFamily:"'Playfair Display',Georgia,serif", color:"#fff", fontWeight:800, fontSize:16, marginBottom:6 }}>📚 NimapadaBookMart</div>
+        <div style={{ fontSize:12 }}>© 2026 NimapadaBookMart · nimapadabookmart.com · Nimapada, Odisha</div>
       </footer>
     </div>
   );
@@ -1195,7 +1195,7 @@ export default function App() {
         <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", marginBottom:24, flexWrap:"wrap", gap:12 }}>
           <div>
             <div style={{ fontFamily:"'Playfair Display',Georgia,serif", fontSize:28, fontWeight:900, color:T.inkNavy }}>Admin Dashboard</div>
-            <div style={{ fontSize:13, color:T.slate }}>NimapadaBookKart · Management Console · Tue, Jun 16 2026</div>
+            <div style={{ fontSize:13, color:T.slate }}>NimapadaBookMart · Management Console · Tue, Jun 16 2026</div>
           </div>
           <div style={{ display:"flex", gap:10 }}>
             <button style={{ background:T.parchment, border:`1px solid ${T.border}`, borderRadius:8, padding:"8px 16px", fontSize:12, fontWeight:700, cursor:"pointer", color:T.walnut }}>
